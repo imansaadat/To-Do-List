@@ -7,7 +7,6 @@ btn.addEventListener("click" , ()=>{
     li.innerText = inputBox.value;
     listItems.appendChild(li);
     inputBox.value = "";
-    li.title = "click to Underline the text"
     li.addEventListener("click" , ()=>{
         li.classList.add("new_style");
         li.title = "double click to remove the text";
